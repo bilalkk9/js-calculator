@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+        <div class="calculator">
+            <h2 class="heading">Simple Calculator</h2>
+          <div class="display">
+            <input type="text" id="answer" autocomplete="off">
+          </div>
+    
+          <div class="keys">
+            <button class="operator" onclick="getNumber('+')">+</button>
+            <button class="operator" onclick="getNumber('-')">-</button>
+            <button class="operator" onclick="getNumber('*')">&times;</button>
+            <button class="operator" onclick="getNumber('/')">÷</button>
+            <button onclick="getNumber('7')">7</button>
+            <button onclick="getNumber('8')">8</button>
+            <button onclick="getNumber('9')">9</button>
+            <button onclick="getNumber('4')">4</button>
+            <button onclick="getNumber('5')">5</button>
+            <button onclick="getNumber('6')">6</button>
+            <button onclick="getNumber('1')">1</button>
+            <button onclick="getNumber('2')">2</button>
+            <button onclick="getNumber('3')">3</button>
+            <button onclick="getNumber('0')">0</button>
+            <button onclick="getNumber('.')">.</button>
+            <button onclick="clearResult()">AC</button>
+            <button class="equal" onclick="getResult()">=</button>
+          </div>
+        </div>
+</body>
+<script src="app.js"></script>
+</html>
